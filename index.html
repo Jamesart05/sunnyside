@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width:500px)">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="modal hidden">
+    <img class="close-modal" src="images/icon-close-menu.svg" alt="">
+    <ul class="modal-ul">
+      <li class="mobile_features"><span>Features <img class="arrow3" src="images/icon-arrow-down.svg" alt=""></span>
+          <ul class="feature hidden">
+            <li class="mobile_more"><img src="images/icon-todo.svg" alt="">Todo List</li>
+            <li class="mobile_more"><img src="images/icon-calendar.svg" alt="">Calendar</li>
+            <li class="mobile_more"><img src="images/icon-reminders.svg" alt="">Reminders</li>
+            <li class="mobile_more"><img src="images/icon-planning.svg" alt="">Planning</li>
+          </ul>
+      </li>
+      <li class="mobile_company"><span>Company <img class="arrow4" src="images/icon-arrow-down.svg" alt=""></span>
+          <ul class="companys hidden">
+            <li class="mobile_more">History</li>
+            <li class="mobile_more">Our Team</li>
+            <li class="mobile_more">Blog</li>
+          </ul>
+      </li>
+      <li>Careers</li>
+      <li>About</li>
+    </ul>
+    <div>
+      <p class="in">Login</p>
+      <p class="out">Register</p>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-left">
+        <div class="mobile-nav">
+          <img class="logo" src="images/logo.svg" alt="">
+          <img src="images/icon-menu.svg" alt="" class="ham">
+        </div>
+      <ul class="drop-down">
+        <li class="items items1">
+          Features 
+          <img class="arrow1" src="images/icon-arrow-down.svg" alt="">
+        </li>
+        <li class="items items2">
+          Company 
+          <img class="arrow2" src="images/icon-arrow-down.svg" alt="">
+        </li>
+        <li class="items">Careers</li>
+        <li class="items">About</li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <p class="login">login</p>
+      <p class="Register">Register</p>
+    </div>
+    <div class="drop-nav1 hidden">
+      <p>
+        <img src="images/icon-todo.svg" alt="">
+        Todo List
+      </p>
+      <p>
+        <img src="images/icon-calendar.svg" alt="">
+        Calendar
+      </p>
+      <p>
+        <img src="images/icon-reminders.svg" alt="">
+        Reminders
+      </p>
+      <p>
+        <img src="images/icon-planning.svg" alt="">
+        Planning
+      </p>
+    </div>
+    <div class="drop-nav2 hidden">
+      <p>History</p>
+      <p>Our Team</p>
+      <p>Blog</p>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <aside>
+        <img class="hero-mobile" src="images/image-hero-mobile.png" alt="">
+      </aside>
+      <div class="intro-text">
+        <h1><span>Make</span> remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+        <p1 class="more">Learn more</p1>
+      </div>
+      <div class="clients">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+    </section>
+    <aside>
+      <img src="images/image-hero-desktop.png" alt="">
+    </aside>
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="script.js"></script>
+</body>
+</html>

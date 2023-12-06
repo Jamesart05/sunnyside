@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-nav{
+    display: flex;
+    align-items: center;
+    gap: 35em;
+}
+
+.drop-down li{
+    display: none;
+}
+
+.nav-right{
+    display: none;
+}
+
+.ham{
+    display: flex;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+aside img{
+    display: none;
+}
+
+.hero-mobile{
+    margin: 0;
+    padding: 0;
+    margin-top: 3em;
+    width: 55rem;
+    display: flex;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+}
+
+.intro-text p{
+    margin: 1em 0;
+    font-size: 3em;
+}
+
+.more{
+    font-size: 2em;
+}
+
+.intro-text h1 span{
+    display: inline;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.modal{
+    width: 20em;
+    height: 50em;
+    position: absolute;
+    top: 0;
+    margin-left: 7.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+    background-color: white;
+    font-size: 2em;
+    color: hsl(0, 0%, 41%);
+}
+
+.close-modal{
+    width: 2em;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-left: 15em;
+    padding: .5em;
+}
+
+.close-modal:hover{
+    border: .1em solid lightgray;
+    border-radius: 4em;
+}
+
+.modal-ul{
+    margin-top: 8em;
+    list-style: none;
+    color: hsl(0, 0%, 41%);
+}
+
+.modal li{
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.modal li:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.modal ul li span{
+    vertical-align: top;
+    display: flex;
+    align-items: center;
+    gap: .4em;
+}
+
+.modal ul li ul li{
+    list-style: none;
+}
+
+.modal ul li ul li img{
+    margin-right: .4em;
+}
+
+.mobile_more:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.arrow3,
+.arrow4{
+    width: .5em;
+    height: .5em;
+}
+
+.in,
+.out{
+    cursor: pointer;
+    padding: .5em 4em;
+    border-radius: 2em;
+    margin-bottom: 12em;
+    margin: 0 4em;
+}
+
+.in:hover,
+.out:hover{
+    color: hsl(0, 0%, 8%);
+    border: .01em solid  hsl(0, 0%, 41%);
+}
+
+.hidden{
+    display: none;
+}
+
+.colors{
+    color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+    color: hsl(0, 0%, 8%);
+}
